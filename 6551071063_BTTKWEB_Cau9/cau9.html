@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký du lịch</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Đăng ký du lịch</h2>
+    <form>
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" value="Phạm Ngọc Cẩm Đào"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" value="227 Nguyễn Văn Cừ"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" value="8351056"></td>
+            </tr>
+            <tr>
+                <td>Khách</td>
+                <td>
+                    <input type="checkbox" checked> Việt Nam
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select>
+                        <option>Buôn Mê Thuột - Gia Lai - Kontum</option>
+                        <option>Đà Lạt - Nha Trang</option>
+                        <option>Huế - Đà Nẵng - Hội An</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" name="vehicle" checked> Máy bay
+                    <input type="radio" name="vehicle"> Xe ô tô
+                </td>
+            </tr>
+           <tr>
+    <td colspan="2">
+        <fieldset class="so-luong">
+            <legend>Số lượng đoàn khách</legend>
+            <table>
+                <tr>
+                    <td style="width: 100px;">Người lớn</td>
+                    <td><input type="text" value="6" size="4"></td>
+                    <td style="width: 80px; text-align: right;">Trẻ em</td>
+                    <td><input type="text" value="4" size="4"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </td>
+</tr>
+
+
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    
+                        <textarea rows="2">
+Có 2 trẻ em dưới 6 tuổi
+Có 2 người ăn chay
+                        </textarea> 
+
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button type="submit">Đồng ý</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="success">Bạn đã đăng ký thành công!!!</div>
+</div>
+
+</body>
+</html>
