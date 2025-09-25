@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+.title {
+    background-color: rgb(241, 160, 235);
+    text-align: center;
+    padding: 10px;
+}
+
+.title h2 {
+    color: rgb(235, 11, 179);
+    margin: 0;
+}
+
+.content {
+    background-color: #FFFFCC;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
